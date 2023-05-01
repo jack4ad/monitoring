@@ -1,0 +1,8 @@
+version: "3.3"
+
+services:
+  node-exporter:
+    image: mylifestream/monitor-node-exporter:latest
+    build:
+      context: .
+      dockerfile: node-exporter/Dockerfile
